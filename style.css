@@ -21,7 +21,7 @@ body{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
-.cal1{
+#screen{
     width: 99%;
     height: 100px;
     background-color: white;
@@ -50,4 +50,13 @@ body{
   border: none;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   font-size: larger;
+}
+.cls{
+    margin-left: 140px;
+    width: 60px;
+    height: 38px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: larger;
 }

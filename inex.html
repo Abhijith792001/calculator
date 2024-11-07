@@ -10,32 +10,33 @@
     <div id="container">
         <div id="cal">
             <div id="output">
-                <input class="cal1" type="text">
+                <input id="screen" type="text">
             </div>
             <div id="cal2">
-                <button onclick="click(1)" class="btn">1</button>
-                <button onclick="click(2)" class="btn">2</button>
-                <button onclick="click(3)" class="btn">3</button>
-                <button onclick="click('+')" class="btn">+</button>
+                <button onclick="clickButton(7)" class="btn">7</button>
+                <button onclick="clickButton(8)" class="btn">8</button>
+                <button onclick="clickButton(9)" class="btn">9</button>
+                <button onclick="clickButton('+')" class="btn">+</button>
                 <br>
-                <button onclick="click(4)" class="btn">4</button>
-                <button onclick="click(5)" class="btn">5</button>
-                <button onclick="click(6)" class="btn">6</button>
-                <button onclick="click('-')" class="btn">-</button>
+                <button onclick="clickButton(4)" class="btn">4</button>
+                <button onclick="clickButton(5)" class="btn">5</button>
+                <button onclick="clickButton(6)" class="btn">6</button>
+                <button onclick="clickButton('-')" class="btn">-</button>
                 <br>
-                <button onclick="click(7)" class="btn">7</button>
-                <button onclick="click(8)" class="btn">8</button>
-                <button onclick="click(9)" class="btn">9</button>
-                <button onclick="click('/')" class="btn">/</button>
+                <button onclick="clickButton(1)" class="btn">1</button>
+                <button onclick="clickButton(2)" class="btn">2</button>
+                <button onclick="clickButton(3)" class="btn">3</button>
+                <button onclick="clickButton('/')" class="btn">/</button>
                 <br>
-                <button onclick="click(0)" class="btn">0</button>
-                <button onclick="click('*')" class="btn">*</button>
-                <button onclick="click('C')" class="btn">C</button>
-                <button onclick="click('.')" class="btn">.</button>
-
+                <button onclick="clickButton(0)" class="btn">0</button>
+                <button onclick="clickButton('.')" class="btn">.</button>
+                <button onclick="clickButton('*')" class="btn">x</button>
+                <button style="background-color: aqua;" onclick="equalClick()" class="btn">=</button>
+                <button onclick="clearButton()" class="cls">C</button>
             </div>
             <h1 id="log">Calculator</h1>
         </div>
     </div>
+    <script src="scirpt.js"></script>
 </body>
 </html>
